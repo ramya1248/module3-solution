@@ -1,0 +1,326 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"l",
+				"link\tTag"
+			],
+			[
+				"col-md",
+				"col-md-2 \tBootstrap 3 Class"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"WID",
+				"width"
+			],
+			[
+				"mi",
+				"min-width"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"border-r",
+				"border-right-width"
+			],
+			[
+				"bor",
+				"border-spacing"
+			],
+			[
+				"borde",
+				"border-collapse"
+			],
+			[
+				"spa",
+				"border-spacing"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"al",
+				"justify-all"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"co",
+				"content"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"lef",
+				"padding-left"
+			],
+			[
+				"bo",
+				"box-sizing"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"colr",
+				"color"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"di",
+				"div\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Install Package Control"
+			],
+			[
+				"",
+				"Bookmarks: Clear All"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ramya/Desktop/test",
+		"/Users/ramya/Desktop/untitled",
+		"/Users/ramya/coursera-work/coursera-test2/mod3-sol/index.html",
+		"/Users/ramya/coursera-work/coursera-test1/module2-solution/css/style1.css",
+		"/Users/ramya/coursera-work/coursera-test1/module2-solution/index.html",
+		"/Users/ramya/Desktop/fullstack-course4-master/examples/Lecture23/media-queries-after.html",
+		"/Users/ramya/coursera-work/coursera-test1/module2-solution/style1.css",
+		"/Users/ramya/Desktop/fullstack-course4-master/examples/Lecture16/style-placement.html",
+		"/Users/ramya/Documents/fullstack-course4-master/examples/Lecture26/grid-before.html",
+		"/Users/ramya/test_site/responsive-before.html",
+		"/Users/ramya/test_site/grid-before.html",
+		"/Users/ramya/test_site/index.html",
+		"/Users/ramya/test_site/specificity.html",
+		"/Users/ramya/training/git-repo/coursera/coursera-test/site/untitled.html",
+		"/Users/ramya/training/git-repo/coursera/coursera-test/site/index.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"margin-left: 150px;",
+			";\n",
+			"text"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "style.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 182.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
