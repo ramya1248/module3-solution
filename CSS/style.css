@@ -1,9 +1,39 @@
 body{
-	text-align: center;
+	font-family: "Lucida Console", Monaco, monospace;
+	color: black;
 }
-
-
+#header-nav{
+	border-radius: 0;
+  	border: 0;
+  	font-family: "Lucida Console", Monaco, monospace;
+  	border-top: 2px solid black; 
+  	border-bottom: 3px solid black;
+}
+.navbar ,.navbar-default{
+	border-color: black;
+}
 h1{
-
-	text-align: center;
+	color: #000000;
+	margin-top: 0px;
 }
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.container-fluid {
+	background-color: #D3D3D3;
+	margin: 50px;
+}   
+.navbar-default {
+    background-color: #D3D3D3;  
+    border: 0 none;
+    
+}
+p{
+	font-size: 1.0em;
+}
+#collapsable-nav{
+	background-color: white;
+	
+	
+}
+

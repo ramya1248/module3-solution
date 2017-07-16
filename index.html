@@ -1,21 +1,119 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="CSS/style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>   -->
+
+  <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+
 </head>
+
 <body>
-  
-<div class="container">
-  <h1>My First Bootstrap Page</h1>
-  <p>This part is inside a .container class.</p> 
-  <p>The .container class provides a responsive fixed width container.</p>           
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <!-- NavBar Brand-->
+          <div class="navbar-brand">
+            <a href="index.html" class="pull-left visible-xs visible-sm visible-md visible-lg"><h1>Food, LLC</h1></a>
+          </div>
+        </div>
+
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+      </div> 
+        
+          <!--dropdown menu--> 
+      <div id="collapsable-nav" class="collapse navbar-collapse">
+        <ul id="nav-list" class="text-center nav navbar-nav navbar-right visible-xs">
+              
+              <li><a href="#">Chicken</a></li>
+              <li><a href="#">Beef</a></li>
+              <li><a href="#">Sushi</a></li>
+
+            </ul>
+          </li><!-- #nav-list -->
+          
+            
+       <!--collapsable navbar-->   
+      </div>   <!--container-->
+     </div>
+    </nav>
+      <h2 class="text-center">Our Menu</h2>
+  </header>
+
+
+<div class="container-fluid">
+<div class="row">
+  <div class="col-xs-12">
+
+<h3 class="text-center">Chicken</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquando posse recte fieri dicunt nulla expectata nec quaesita voluptate. At quicum ioca seria, ut dicitur, quicum arcana, quicum occulta omnia? Non est ista, inquam, Piso, magna dissensio. Quae similitudo in genere etiam humano apparet. Quis est, qui non oderit libidinosam, protervam adolescentiam? Sint modo partes vitae beatae. Duo Reges: constructio interrete. Id enim volumus, id contendimus, ut officii fructus sit ipsum officium. Sumenda potius quam expetenda. Iubet igitur nos Pythius Apollo noscere nosmet ipsos.
+
+Quae diligentissime contra Aristonem dicuntur a Chryippo. Non quam nostram quidem, inquit Pomponius iocans; Si quicquam extra virtutem habeatur in bonis. Recte, inquit, intellegis. Si quicquam extra virtutem habeatur in bonis. Ita multo sanguine profuso in laetitia et in victoria est mortuus.
+
+Ut alios omittam, hunc appello, quem ille unum secutus est. Aliter homines, aliter philosophos loqui putas oportere? Non quam nostram quidem, inquit Pomponius iocans; Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Re mihi non aeque satisfacit, et quidem locis pluribus. Atque haec coniunctio confusioque virtutum tamen a philosophis ratione quadam distinguitur. Non autem hoc: igitur ne illud quidem. Ego vero isti, inquam, permitto. Mihi quidem Antiochum, quem audis, satis belle videris attendere. Ut aliquid scire se gaudeant?
+
+Cupit enim dícere nihil posse ad beatam vitam deesse sapienti. Hoc est non modo cor non habere, sed ne palatum quidem. Sed tamen intellego quid velit. Disserendi artem nullam habuit. Nunc haec primum fortasse audientis servire debemus. Nemo igitur esse beatus potest.
+
+Itaque si aut requietem natura non quaereret aut eam posset alia quadam ratione consequi. Hic nihil fuit, quod quaereremus. Quare ad ea primum, si videtur;
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquando posse recte fieri dicunt nulla expectata nec quaesita voluptate. At quicum ioca seria, ut dicitur, quicum arcana, quicum occulta omnia? Non est ista, inquam, Piso, magna dissensio. Quae similitudo in genere etiam humano apparet. Quis est, qui non oderit libidinosam, protervam adolescentiam? Sint modo partes vitae beatae. Duo Reges: constructio interrete. Id enim volumus, id contendimus, ut officii fructus sit ipsum officium. Sumenda potius quam expetenda. Iubet igitur nos Pythius Apollo noscere nosmet ipsos.
+
+Quae diligentissime contra Aristonem dicuntur a Chryippo. Non quam nostram quidem, inquit Pomponius iocans; Si quicquam extra virtutem habeatur in bonis. Recte, inquit, intellegis. Si quicquam extra virtutem habeatur in bonis. Ita multo sanguine profuso in laetitia et in victoria est mortuus.
+
+Ut alios omittam, hunc appello, quem ille unum secutus est. Aliter homines, aliter philosophos loqui putas oportere? Non quam nostram quidem, inquit Pomponius iocans; Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Re mihi non aeque satisfacit, et quidem locis pluribus. Atque haec coniunctio confusioque virtutum tamen a philosophis ratione quadam distinguitur. Non autem hoc: igitur ne illud quidem. Ego vero isti, inquam, permitto. Mihi quidem Antiochum, quem audis, satis belle videris attendere. Ut aliquid scire se gaudeant?
+
+Cupit enim dícere nihil posse ad beatam vitam deesse sapienti. Hoc est non modo cor non habere, sed ne palatum quidem. Sed tamen intellego quid velit. Disserendi artem nullam habuit. Nunc haec primum fortasse audientis servire debemus. Nemo igitur esse beatus potest.
+
+Itaque si aut requietem natura non quaereret aut eam posset alia quadam ratione consequi. Hic nihil fuit, quod quaereremus. Quare ad ea primum, si videtur;
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquando posse recte fieri dicunt nulla expectata nec quaesita voluptate. At quicum ioca seria, ut dicitur, quicum arcana, quicum occulta omnia? Non est ista, inquam, Piso, magna dissensio. Quae similitudo in genere etiam humano apparet. Quis est, qui non oderit libidinosam, protervam adolescentiam? Sint modo partes vitae beatae. Duo Reges: constructio interrete. Id enim volumus, id contendimus, ut officii fructus sit ipsum officium. Sumenda potius quam expetenda. Iubet igitur nos Pythius Apollo noscere nosmet ipsos.
+
+Quae diligentissime contra Aristonem dicuntur a Chryippo. Non quam nostram quidem, inquit Pomponius iocans; Si quicquam extra virtutem habeatur in bonis. Recte, inquit, intellegis. Si quicquam extra virtutem habeatur in bonis. Ita multo sanguine profuso in laetitia et in victoria est mortuus.
+
+Ut alios omittam, hunc appello, quem ille unum secutus est. Aliter homines, aliter philosophos loqui putas oportere? Non quam nostram quidem, inquit Pomponius iocans; Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Re mihi non aeque satisfacit, et quidem locis pluribus. Atque haec coniunctio confusioque virtutum tamen a philosophis ratione quadam distinguitur. Non autem hoc: igitur ne illud quidem. Ego vero isti, inquam, permitto. Mihi quidem Antiochum, quem audis, satis belle videris attendere. Ut aliquid scire se gaudeant?
+
+Cupit enim dícere nihil posse ad beatam vitam deesse sapienti. Hoc est non modo cor non habere, sed ne palatum quidem. Sed tamen intellego quid velit. Disserendi artem nullam habuit. Nunc haec primum fortasse audientis servire debemus. Nemo igitur esse beatus potest.
+
+Itaque si aut requietem natura non quaereret aut eam posset alia quadam ratione consequi. Hic nihil fuit, quod quaereremus. Quare ad ea primum, si videtur;
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquando posse recte fieri dicunt nulla expectata nec quaesita voluptate. At quicum ioca seria, ut dicitur, quicum arcana, quicum occulta omnia? Non est ista, inquam, Piso, magna dissensio. Quae similitudo in genere etiam humano apparet. Quis est, qui non oderit libidinosam, protervam adolescentiam? Sint modo partes vitae beatae. Duo Reges: constructio interrete. Id enim volumus, id contendimus, ut officii fructus sit ipsum officium. Sumenda potius quam expetenda. Iubet igitur nos Pythius Apollo noscere nosmet ipsos.
+
+Quae diligentissime contra Aristonem dicuntur a Chryippo. Non quam nostram quidem, inquit Pomponius iocans; Si quicquam extra virtutem habeatur in bonis. Recte, inquit, intellegis. Si quicquam extra virtutem habeatur in bonis. Ita multo sanguine profuso in laetitia et in victoria est mortuus.
+
+Ut alios omittam, hunc appello, quem ille unum secutus est. Aliter homines, aliter philosophos loqui putas oportere? Non quam nostram quidem, inquit Pomponius iocans; Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Re mihi non aeque satisfacit, et quidem locis pluribus. Atque haec coniunctio confusioque virtutum tamen a philosophis ratione quadam distinguitur. Non autem hoc: igitur ne illud quidem. Ego vero isti, inquam, permitto. Mihi quidem Antiochum, quem audis, satis belle videris attendere. Ut aliquid scire se gaudeant?
+
+Cupit enim dícere nihil posse ad beatam vitam deesse sapienti. Hoc est non modo cor non habere, sed ne palatum quidem. Sed tamen intellego quid velit. Disserendi artem nullam habuit. Nunc haec primum fortasse audientis servire debemus. Nemo igitur esse beatus potest.
+
+Itaque si aut requietem natura non quaereret aut eam posset alia quadam ratione consequi. Hic nihil fuit, quod quaereremus. Quare ad ea primum, si videtur;
+
+</p>
+</div>
 </div>
 
+</div>
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+ <!-- <script src="js/jquery-2.1.4.min.js"></script> -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
